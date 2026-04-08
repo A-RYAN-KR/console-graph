@@ -1,0 +1,64 @@
+{
+  "name": "console-graph",
+  "version": "1.0.0",
+  "description": "A tiny, zero-dependency sparkline logger for your console. Track numerical values over time with beautiful ASCII sparklines. Works in Node.js and browsers.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./register": {
+      "import": "./dist/register.mjs",
+      "require": "./dist/register.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node test/index.js",
+    "prepublishOnly": "node scripts/build.js",
+    "example": "node examples/demo.js",
+    "example:dashboard": "node examples/dashboard.js"
+  },
+  "keywords": [
+    "console",
+    "graph",
+    "sparkline",
+    "ascii",
+    "chart",
+    "logger",
+    "monitoring",
+    "dashboard",
+    "terminal",
+    "cli",
+    "memory",
+    "cpu",
+    "metrics",
+    "streaming",
+    "real-time",
+    "unicode",
+    "devtools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {}
+}

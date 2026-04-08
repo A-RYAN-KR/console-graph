@@ -1,0 +1,8 @@
+node_modules
+src
+scripts
+test
+examples
+.git
+.gitignore
+.npmignore
