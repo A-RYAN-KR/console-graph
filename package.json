@@ -14,6 +14,10 @@
     "./register": {
       "import": "./dist/register.mjs",
       "require": "./dist/register.cjs"
+    },
+    "./sparkline": {
+      "import": "./dist/sparkline.mjs",
+      "require": "./dist/sparkline.cjs"
     }
   },
   "files": [
@@ -47,15 +51,15 @@
     "unicode",
     "devtools"
   ],
-  "author": "",
+  "author": "A-RYAN-KR",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/A-RYAN-KR/console-graph.gi"
   },
-  "homepage": "",
+  "homepage": "https://github.com/A-RYAN-KR/console-graph.gi",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/A-RYAN-KR/console-graph.gi/issues"
   },
   "engines": {
     "node": ">=14.0.0"
