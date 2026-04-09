@@ -55,11 +55,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/A-RYAN-KR/console-graph.gi"
+    "url": "https://github.com/A-RYAN-KR/console-graph.git"
   },
-  "homepage": "https://github.com/A-RYAN-KR/console-graph.gi",
+  "homepage": "https://github.com/A-RYAN-KR/console-graph.git",
   "bugs": {
-    "url": "https://github.com/A-RYAN-KR/console-graph.gi/issues"
+    "url": "https://github.com/A-RYAN-KR/console-graph.git/issues"
   },
   "engines": {
     "node": ">=14.0.0"
